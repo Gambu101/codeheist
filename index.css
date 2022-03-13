@@ -1,6 +1,6 @@
 .f1{
     height: 700px;
-    width: fit-content;
+    width: 100vw;
     background-image: url("blue_chair.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 700px;
