@@ -1,0 +1,103 @@
+.f1{
+    height: 700px;
+    width: fit-content;
+    background-image: url("blue_chair.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 700px;
+    background-position: stretch;
+
+}
+.header{
+    display: grid;
+    justify-content: stretch;
+}
+.furni{
+    padding-left: 30px;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 10px;
+
+}
+.tins{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+}
+.home{
+    margin: 10px;
+}
+.categories{
+    margin: 10px;
+}
+.services{
+    margin: 10px;
+}
+.pricing{
+    margin: 10px;
+}
+.flex{
+    float: right;
+    margin-left: auto;
+    margin-right: 20vw;
+    margin-top: 200px;
+}
+#be{
+    font-size: large;
+    font-size: 35px;
+}
+#get{
+    margin: 5px;
+    font-size: 15px;
+}
+#discover{
+    margin-top: 10px;
+}
+.f2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.white{
+    background-image: url("white_chair.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 500px;
+    height: 500px;
+    width: 350px;
+    background-color: yellow;
+}
+#b1{
+    border-radius: 6px;
+    float: right;
+    align-self: flex-end;
+}
+.double{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    padding-left: 30px;
+}
+.black{
+    background-image: url("black_chair.jpg");
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 400px;
+    background-size: 400px 240px;
+}
+#b2{
+    border-radius: 6px;
+    float: right;
+    align-self: flex-end;
+}
+.brown{
+    background-image: url("brown_chair.jpg");
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 400px;
+    background-size: 400px 240px;
+}
+#b3{
+    border-radius: 6px;
+    float: right;
+    align-self: flex-end;
+}
